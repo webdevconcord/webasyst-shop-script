@@ -1,0 +1,21 @@
+<form id="payment-form" method="POST" action="{$form_url}" target="_top">
+  {foreach $form_fields as $field=>$value}
+    {if !empty($value)}
+        {if is_array($value)}
+            {foreach $value as $k=>$v}
+                <input type="hidden" value="{$v|escape}" name="{$field|escape}[]">
+            {/foreach}
+        {else}<input type="hidden" value="{$value|escape}" name="{$field|escape}">{/if}
+    {/if}
+  {/foreach}
+  {if $auto_submit}
+      <i class="icon16 loading"></i><em>[`Redirect to ConcordPay site for payment...`]</em>
+      <br/><br/>
+      <script type="text/javascript">
+        window.addEventListener('load', function () {
+          document.getElementById('payment-form').submit();
+        });
+      </script>
+  {/if}
+  <input type="submit" value="[`Pay for the order on the ConcordPay website`]">
+</form>

@@ -1,0 +1,13 @@
+/*
+!README.md
+Makefile
+!.gitignore
+
+!/wa-plugins
+/wa-plugins/*
+
+!/wa-plugins/payment
+/wa-plugins/payment/*
+
+!/wa-plugins/payment/concordpay
+

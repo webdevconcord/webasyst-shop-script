@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wa-plugins/payment/concordpay\n"
+"POT-Creation-Date: 2021-09-03 10:18+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: wa-plugins/payment/concordpay\n"
+"Language-Team: wa-plugins/payment/concordpay\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: uk_uk\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+msgid "Merchant ID"
+msgstr "Ідентифікатор продавця"
+
+msgid "Merchant ID in the ConcordPay system"
+msgstr "Ідентифікатор продавця в системі ConcordPay"
+
+msgid "Secret key"
+msgstr "Секретний ключ"
+
+msgid "Secret key in the ConcordPay system"
+msgstr "Секретний ключ у системі ConcordPay"
+
+msgid "Transaction completed"
+msgstr "Операція завершена"
+
+msgid "Payment Visa, Mastercard, Google Pay, Apple Pay"
+msgstr "Оплата Visa, Mastercard, Google Pay, Apple Pay"
+
+msgid "Payment by card on the site"
+msgstr "Оплата карткою на сайті"
+
+msgid "Invalid signature"
+msgstr "Недійсний підпис"
+
+msgid "Forbidden (validate error):"
+msgstr "Заборонено (помилка перевірки):"
+
+msgid "Callback URL"
+msgstr "URL сповіщення"
+
+msgid "URL for sending the notification about the results of the payment"
+msgstr "URL для надсилання сповіщення про результати платежу"
+
+msgid "Pay for the order on the ConcordPay website"
+msgstr "Оплата замовлення на сайті ConcordPay"
+
+msgid "Payment reason:"
+msgstr "Причина оплати:"
+
+msgid "Redirect to ConcordPay site for payment..."
+msgstr "Перенаправлення на сайт oncordPay для оплати..."
+
+msgid "Invalid order id"
+msgstr "Неправильний ID замовлення"
+
+msgid "Unknown operation type"
+msgstr "Невідомий тип операції"
